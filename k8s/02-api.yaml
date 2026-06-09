@@ -22,8 +22,8 @@ spec:
     spec:
       containers:
         - name: product-api
-          # Replace <ACR_NAME> with your registry, e.g. fullstackacr.azurecr.io
-          image: <ACR_NAME>.azurecr.io/product-api:latest
+          # Replace anishfullstackacr with your registry, e.g. fullstackacr.azurecr.io
+          image: anishfullstackacr.azurecr.io/product-api:latest
           env:
             - name: ConnectionStrings__DefaultConnection
               valueFrom:
